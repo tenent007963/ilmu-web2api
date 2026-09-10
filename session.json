@@ -1,0 +1,36 @@
+{
+  "cookies": [
+    {
+      "name": "AWSALB",
+      "value": "E8HWFFxBN9uIEMSiB2X4CO67W89huKcl7idKI+b6Wh0LFKfNNc1l0s2nJhNuhQaxMKvkfWEF5giZ4zpiHYufjvHUDSsMwpCcAVNR4t0sBzOkTYKo88Gu11pa6NgB",
+      "domain": "chat.ilmu.ai",
+      "path": "/"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "E8HWFFxBN9uIEMSiB2X4CO67W89huKcl7idKI+b6Wh0LFKfNNc1l0s2nJhNuhQaxMKvkfWEF5giZ4zpiHYufjvHUDSsMwpCcAVNR4t0sBzOkTYKo88Gu11pa6NgB",
+      "domain": "chat.ilmu.ai",
+      "path": "/"
+    },
+    {
+      "name": "has_session",
+      "value": "1",
+      "domain": "chat.ilmu.ai",
+      "path": "/"
+    },
+    {
+      "name": "kopitiam_refresh_token",
+      "value": "18PYCaMD8UWkHYWbG6nThMfbgdobG421rEdCmBNgsYxfUbodY-DsnHlSMU8iGuHX",
+      "domain": "chat.ilmu.ai",
+      "path": "/api/v1/auth"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "h8wAqSqIabfNH4vWGs_uwb2O_7DaU3CfrGcQbq_vIqk-1789050674.484841-1.0.1.1-WOesAwB4AakfckEdb0IRqy5AQ_x.FfvN2jYvl6L2WE4",
+      "domain": ".ilmu.ai",
+      "path": "/"
+    }
+  ],
+  "refresh_token": null,
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFjNjk0MzUwLTY5YTMtNDY3Zi04YTNlLWIwZjgwMmQ0NzgwMiIsImVtYWlsIjoidGVuZW50MDA3OTYzQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwidHlwZSI6ImFjY2VzcyIsInNpZCI6ImMxMGNmYmQ5LWU4ZjItNDk0YS1iMTIxLWNlZTkxYTc2OTJjYSIsImV4cCI6MTc4OTA2MDIzN30.Eant1tliM7zVbhMpLNWPJvj9JMlodKZrAgMyMISPn5c"
+}
