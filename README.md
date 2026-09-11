@@ -65,7 +65,7 @@ Once the container is running, you can interact with it just like the standard O
 cURL Example:
 
 ```Bash
-curl http://localhost:5678/v1/chat/completions \
+curl http://localhost:6769/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
     "model": "ilmu-v3.1-instant",
@@ -79,7 +79,7 @@ If you prefer to run ilmu_web2api.py directly without Docker, it accepts the fol
 
 `--host`: IP to bind to (Defaults to 0.0.0.0).
 
-`--port`: Port to listen on (Defaults to 5678).
+`--port`: Port to listen on (Defaults to 6769).
 
 `--data-dir`: Custom path to store session.json.
 

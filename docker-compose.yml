@@ -5,10 +5,10 @@ services:
     build: .
     container_name: ilmu-web2api
     ports:
-      - "5678:5678"
+      - "6769:6769"
     environment:
       - HOST=0.0.0.0
-      - PORT=5678
+      - PORT=6769
       - ILMU_EMAIL=${ILMU_EMAIL}
       - ILMU_PASSWORD=${ILMU_PASSWORD}
 
