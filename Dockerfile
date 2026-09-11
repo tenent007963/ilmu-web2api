@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir requests
 # Copy the application script[cite: 1]
 COPY ilmu_web2api.py .
 
-EXPOSE 8000
+EXPOSE 5678
 
 ENTRYPOINT ["python", "ilmu_web2api.py"]
