@@ -5,7 +5,7 @@ services:
     build: .
     container_name: ilmu-web2api
     ports:
-      - "5678：5678"
+      - "5678:5678"
     environment:
       - HOST=0.0.0.0
       - PORT=5678
