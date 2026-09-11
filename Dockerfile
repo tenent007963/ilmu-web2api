@@ -10,4 +10,5 @@ COPY ilmu_web2api.py .
 
 EXPOSE 6769
 
-ENTRYPOINT ["python", "ilmu_web2api.py"]
+RUN 
+ENTRYPOINT ["sh", "-c", "python ilmu_web2api.py --login && exec python ilmu_web2api.py"]
