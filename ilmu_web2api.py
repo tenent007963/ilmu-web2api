@@ -542,7 +542,7 @@ def default_data_dir() -> Path:
 
 def main(argv: Optional[list] = None) -> int:
     parser = argparse.ArgumentParser(description="Ilmu web -> OpenAI-compatible local proxy")
-    parser.add_argument("--host", default=os.getenv("HOST", "127.0.0.1"))
+    parser.add_argument("--host", default=os.getenv("HOST", "0.0.0.0"))
     parser.add_argument("--port", type=int, default=int(os.getenv("PORT", "8000")))
     parser.add_argument("--data-dir", type=Path, default=Path(os.getenv("ILMU_DATA_DIR", default_data_dir())))
     parser.add_argument("--login", action="store_true", help="login and save session, then exit")

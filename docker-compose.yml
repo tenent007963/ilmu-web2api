@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ilmu-proxy:
+    build: .
+    container_name: ilmu-web2api
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - ILMU_EMAIL=${ILMU_EMAIL}
+      - ILMU_PASSWORD=${ILMU_PASSWORD}
+
+    restart: unless-stopped
