@@ -72,9 +72,9 @@ curl http://localhost:6769/v1/chat/completions \
     "messages": [{"role": "user", "content": "Write a bash script to parse system logs."}],
     "stream": true
   }'
-```  
+```
 
-###️ Advanced: CLI Flags (Standalone Python)
+### Advanced: CLI Flags (Standalone Python)
 If you prefer to run ilmu_web2api.py directly without Docker, it accepts the following command-line arguments:
 
 `--host`: IP to bind to (Defaults to 0.0.0.0).
@@ -88,3 +88,8 @@ If you prefer to run ilmu_web2api.py directly without Docker, it accepts the fol
 `-v`, `--verbose`: Enable verbose debug logging for troubleshooting upstream errors.
 
 `-n`, `--no-override`: Disables the automatic overriding/shortening of large system prompts (Useful if you want to bypass the system prompt hijacking designed to prevent 502 errors).
+
+
+### Disclaimer : Educational and Research Purposes Only
+
+This software is developed and distributed solely for educational, academic, and reverse-engineering research purposes. It is intended as a proof-of-concept (PoC) to demonstrate web automation and browser-native API bridging techniques. It is not intended for commercial use or production deployment. You are solely responsible for ensuring that your use of this software complies with the Terms of Service, Acceptable Use Policies, and User Agreements of the web-based AI platforms you interact with. Interacting with web platforms via automated tools, headless browsers, or reverse-engineered web endpoints may violate third-party Terms of Service and could result in account rate-limiting, temporary suspension, or permanent termination by the provider. The developer(s) of this project accept no responsibility or liability for any actions taken against your personal or corporate accounts.
